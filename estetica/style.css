@@ -1,0 +1,305 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+/*HEADER Y NAV*/
+
+header{
+    height: 150px;
+    padding: 0px;
+    background-color: #97260E;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+}
+
+.navMenu{
+    color: #97260E;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: #97260E;
+    margin: 0%;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    text-decoration: none;
+}
+
+button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: black;
+    margin: 10%;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+/*Main*/
+
+main{
+    background-color: #F0EFEF;
+    margin: 0%;
+    padding: 10px;
+    height: 700px;
+}
+
+
+/*Main con grids*/
+
+.sectionUno{
+    background-color: #F0EFEF;
+    display: grid;
+    grid-template-columns: 250px 150px 600px 300px
+    
+}
+
+.menu{
+    background-color: #E3E2E2;
+    width: 250px;
+    height: 700px;
+
+}
+
+.vacio{
+    background-color: #F0EFEF;
+    width: 150px;
+    height: 700px;
+}
+
+.texto{ 
+    background-color: #E3E2E2;
+    width: 600px;
+    height: 700px;
+    
+}
+
+.imagen{ 
+    background-color: #E3E2E2;
+    width: 320px;
+    height: 700px;
+    
+}
+
+
+.ImgDos{
+    padding: 20px;
+    margin: 20px;
+    max-width: 40%;
+    max-height: 40%;
+}
+
+h1{
+    color: #1C1C1C;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    padding: 0px;
+    margin: 0px 
+}
+
+h2{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1C1C1C;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 40px;
+    margin: 10px;
+}
+
+h3{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1C1C1C;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+p{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content:baseline;
+    
+}
+
+img{ 
+    padding: 30px;
+    margin: 10px;
+    max-width: 80%;
+    max-height: 80%;
+}
+
+
+
+/*FOOTER*/
+
+footer{
+    height: 300px;
+    background-color:#E3E2E2; 
+    display: grid;
+    grid-template-columns: 350px 400px 
+}
+    
+
+.footerUno{ 
+    background-color: #E3E2E2;
+    width: 350px;
+    height: 200px;
+}
+
+.empty{
+    background-color: #E3E2E2;
+    width: 350px;
+    height: 200px;
+}
+
+.p1{
+    color: #1C1C1C;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 25px;
+    margin: 10px;
+}
+
+.p2{
+    color: #1C1C1C;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 25px;
+    margin: 10px;
+}
+
+.aContacto{
+    color: #97260E;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding: 20px;
+    margin: 10px;
+
+}
+
+.imgTres{
+    padding: 20px;
+    margin: 20px;
+    max-width: 200%;
+    max-height: 200%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*CSS PRODUCTOS*/
+
+.sectionProductos{
+    background-color: #F0EFEF;
+    display: grid;
+    grid-template-columns: 250px 100px 400px 590px
+    
+}
+
+.textoDos{
+    background-color: #E3E2E2;
+    width: 400px;
+    height: 700px;
+}
+
+.imagenesDeProductos{
+    background-color: #E3E2E2;
+    width: 590px;
+    height: 800px;
+}
+
+.collage{
+    padding: 10px;
+    margin: 20px;
+    max-width: 550px;
+    max-height: 800px;
+}
+
+.ul{
+    color: #1C1C1C;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px;
+    margin: 10px;
+}
+
+.info{
+    color:#97260E ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+/*CSS NOSOTROS*/
+
+.mainNosotros{
+    background-color: #F0EFEF;
+    margin: 0%;
+    padding: 10px;
+    height: 1000px;
+}
+
+.menuNosotros{
+    background-color: #E3E2E2;
+    width: 250px;
+    height: 1000px;
+
+}
+
+.vacioNosotros{
+    background-color: #F0EFEF;
+    width: 150px;
+    height: 900px;
+}
+
+.textoTres{
+    background-color: #E3E2E2;
+    width: 500px;
+    height: 1000px;
+}
+
+.imagenNosotros{ 
+    background-color: #E3E2E2;
+    width: 320px;
+    height: 1000px;
+}
+
+/*MOBILE*/
+
+@media screen and (min-widht: 786px) {
+    .body {
+    background-color: #E3E2E2;
+    grid-template-columns: 1fr 2fr;
+
+
+
+}
